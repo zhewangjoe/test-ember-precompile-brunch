@@ -1,0 +1,29 @@
+{
+  "name": "test-ember-precompile-brunch",
+  "version": "0.1.6",
+  "description": "Another Brunch plugin for Ember.js template precompiling",
+  "main": "./lib/index",
+  "scripts": {
+    "prepublish": "coffee -o lib/ src/",
+    "postinstall": "node setup.js postinstall",
+    "test": "node setup.js test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhewangjoe/test-ember-precompile-brunch.git"
+  },
+  "author": "Zhe (Joe) Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhewangjoe/test-ember-precompile-brunch/issues"
+  },
+  "homepage": "https://github.com/zhewangjoe/test-ember-precompile-brunch",
+  "engines": {
+    "node": "4.6.0"
+  },
+  "dependencies": {
+    "coffee-script": "1.4.0",
+    "jsdom": "^1.0.0"
+  },
+  "devDependencies": {}
+}

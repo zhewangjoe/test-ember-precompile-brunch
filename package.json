@@ -1,6 +1,6 @@
 {
   "name": "test-ember-precompile-brunch",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Another Brunch plugin for Ember.js template precompiling",
   "main": "./lib/index",
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "coffee-script": "1.4.0",
-    "jsdom": "^1.0.0"
+    "jsdom": "^9.0.0"
   },
   "devDependencies": {}
 }
